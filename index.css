@@ -15,6 +15,7 @@ body {
     font-family: var(--font--outfit);
     background-color: var(--clr-LightGray);
     padding: 1rem;
+    height: 100vh;
 }
 
 .Text {
@@ -22,21 +23,27 @@ body {
    border-radius: 20px;
    text-align: center;
    align-items: center;   
-   padding: 0.5rem;
+   padding: 1rem;
+   width: 20rem;
 
 }
 
 .Picture img {
     border-radius: 8px;
+    width: 100%;
+    margin-bottom: -1rem;
 }
 
 .Text h1 {
     color: var(--clr--DarkBlue);
     padding: 15px;
+    margin: 0 0;
+    
 }
 
 .Text p {
     color: var(--clr--GrayishBlue);
+    margin: 0 1rem;
 
 }
 
@@ -44,9 +51,3 @@ body {
     text-align: center;
     font-size: 10px;
 }
-
-
-
-
-
-
